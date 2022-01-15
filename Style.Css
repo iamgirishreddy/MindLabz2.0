@@ -14,8 +14,24 @@
       right : 20px;
       z-index: 10;
   }
+  /* div{
+    display:inline-block;
+    padding:0px;
+    margin:0px;
+  }
+
+  body{
+    padding:0px;
+    margin:0px;
+ } */
   
-  
+  @media only screen and (min-width: 700px){
+      .giri{
+          width: 457px !important;
+
+      }
+  }
+
   .whatsapp-ico:hover{
       box-shadow: 2px 2px 11px rgba(0,0,0,0.7);
   }
